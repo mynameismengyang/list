@@ -2,12 +2,15 @@ class ArryDemo2
 {
 	public static void main(String[] args) 
 	{
-		/*
-		int[] nums = new int[]{1,2,3,4};
-		//¼òĞ´ int[] nums = {1,2,3,4}
-		*/
-		int[] nums;
-		nums = {1,2,3,4};
+		int[] nums = new int[5];
 		System.out.println(nums.length);
+		
+		nums =new int[3];
+		System.out.println(nums.length);
+
+		nums = null;
+		System.out.println(nums.length);
+
+
 	}
 }
